@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
     ks.private_header_files = 'Library/sqlite-amalgamation/*.h'
     ks.compiler_flags = '-w', '-Xanalyzer', '-analyzer-disable-all-checks'
   end
+  spec.dependency "Base64", "= 1.1.2"
 end
